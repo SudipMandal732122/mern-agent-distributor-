@@ -1,0 +1,55 @@
+body { 
+    font-family: Arial, sans-serif; 
+    background:#f7f9fb; 
+    margin:0; 
+    padding:20px;
+}
+
+.container { 
+    max-width:1100px; 
+    margin:0 auto;
+}
+
+header { 
+    display:flex; 
+    justify-content:space-between; 
+    align-items:center; 
+    margin-bottom:12px;
+}
+
+.card { 
+    background:white; 
+    padding:12px; 
+    border-radius:8px; 
+    box-shadow:0 1px 4px rgba(0,0,0,0.06); 
+    margin-bottom:12px;
+}
+
+.grid { 
+    display:grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap:12px; 
+}
+
+.form input { 
+    display:block; 
+    width:100%; 
+    margin:6px 0; 
+    padding:8px;
+}
+
+button { 
+    padding:8px 12px; 
+    cursor:pointer;
+}
+
+.error { 
+    color: red;
+}
+
+.assigned { 
+    border-top:1px dashed #eee; 
+    padding-top:8px; 
+    margin-top:8px;
+}
+

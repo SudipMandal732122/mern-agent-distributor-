@@ -31,7 +31,7 @@ Agent Distributor is a web application built using the **MERN stack** (MongoDB, 
 ## Screenshots
 
 ### Login Page
-![Login Page](https://github.com/AdarshVerma1968/mern-agent-distributor/blob/main/Screenshot%20(179).png?raw=true)
+![Login Page](https://github.com/SudipMandal732122/mern-agent-distributor-/blob/main/Screenshot%20(Login).png)
 
 ### Dashboard Page
 ![Dashboard Page](https://github.com/AdarshVerma1968/mern-agent-distributor/blob/main/Screenshot%20(180).png?raw=true)

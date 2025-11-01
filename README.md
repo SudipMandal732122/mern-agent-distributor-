@@ -46,7 +46,7 @@ Agent Distributor is a web application built using the **MERN stack** (MongoDB, 
 ---
 
 ## **Folder Structure**
-
+```bash
 mern-agent-distributer/
 │
 ├─ backend/
@@ -80,7 +80,7 @@ mern-agent-distributer/
 │ │ └─ UploadLists.jsx
 │ └─ .env
 └─ README.md
-
+```
 ---
 
 ## **Setup Instructions**
@@ -95,7 +95,7 @@ cd backend
 2. Install dependencies:
 
 npm install
-
+```
 3. Create a .env file in the backend folder with the following content:
 
 PORT=5000
@@ -105,9 +105,9 @@ ADMIN_EMAIL=admin@example.com
 ADMIN_PASSWORD=adminpassword
 
 4. Start the backend server:
-
+```bash
 npm run dev
-
+```
 You should see:
 Server running on port 5000
 MongoDB connected
@@ -116,21 +116,21 @@ Bootstrap admin created: admin@example.com
 ### 2. Frontend Setup
 
 1. Navigate to the frontend folder:
-
+```bash
 cd frontend
 
 2. Install dependencies:
 
 npm install
-
+```
 3. Create a .env file in the frontend folder with:
 
 VITE_API_URL=http://localhost:5000/api
 
 4. Start the frontend:
-
+```bash
 npm run dev
-
+```
 Open your browser at the URL shown (usually http://localhost:5173).
 
 3. Admin Login
